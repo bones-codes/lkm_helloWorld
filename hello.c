@@ -14,7 +14,7 @@
 
 static int __init hello_init(void)
 {
-	printk(KERN_INFO "Hello World! My nombre es bones\n");
+	printk(KERN_INFO "Hello World! My nombre es bones.\n");
 	return 0; 	// Non-zero return means that the module couldn't be loaded.
 }
 
